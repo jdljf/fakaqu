@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{font:12px tahoma,'\5b8b\4f53',sans-serif;font-family:"Microsoft YaHei";font-size:12px;overflow-x: hidden;}
+*{margin:0px; padding:0px;}
+ul li{list-style:none;}
+li{list-style:none;}
+img{border:none;}
+a{color:#333; text-decoration:none; cursor:pointer;}
+a:visited {color:#313131}
+a:hover{color:#009bff;}
+a:active {color:#313131}
+em{font-style:normal;}
+
+.top{ width:100%; }
+.top img{ display:block; width:90%; max-width:375px; margin:0 auto;}
+
+.center{ text-align:center;color:#ababab;}
+.center .p1{ font-size:48px; margin:15px auto;}
+.center .p2{ font-size:30px; height:45px;}
+.center .djs{ color:#3f8bd1; margin-right:5px;}
+
+.bottom{ background:url('./fanh.png') no-repeat; background-size:cover; width:430px; height:110px; margin:25px auto 15px; position:relative;}
+.bottom .bnt{display:inline-block; position:absolute; right:0px; top:13px; cursor:pointer; width:108px; height:36px; text-indent:-9999px;}
+
+@media screen and (max-width:479px){
+	.center .p1{ font-size:36px;}
+     .center .p2{ font-size:20px; height:35px;}
+	
+	.bottom{width:335px; height:85px;}
+	.bottom .bnt{width:80px; height:25px; top:12px;}
+	}
+	
+@media screen and (max-width:320px){
+	
+	.center .p1{ font-size:36px;}
+     .center .p2{ font-size:20px;}
+	
+	.bottom{width:310px; height:79px;}
+	.bottom .bnt{ top:10px;}
+	}

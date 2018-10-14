@@ -1,0 +1,26 @@
+export default {
+    Businessinformation:{
+        Gatheringinfo:'shop Gathering information',
+        info:'Merchant basic information',
+        userno:'userid',
+        username:'username',
+        email:'email',
+        phone:'phonenumber',
+        qq:'qq',
+        shopname:'Shopname',
+        siteurl:'Sitewebsite',
+        domainname:'Shop domain name',
+        inventory:'Inventory shows',
+        actualnumbe:'Actual stock quantity',
+        Displayinventory:'Display inventory scope',
+        announcement:'Merchants announcement',
+        Paymentmethod:'Payment methods',
+        Revisemethod:'Revise the method of collection',
+        bank:'bank',
+        Bankcard:'Bank card number',
+        Openaddress:'To open an account address',
+        payee:'Name of payee',
+        Idcard:'Id card',
+        setting:'Save Settings'
+     },
+}

@@ -1,0 +1,37 @@
+export default {
+    coupons:{
+        title:'Add coupon',
+        Discount:'Discount denomination',
+        Dollar:'$',
+        distext:'For wholesale merchants, please select the “percentage” discount denomination. For the single product recommendation, choose the “yuan” denomination.',
+        Numbergeneration:'Number of generation',
+        numtext:'Generate up to 200 sheets at a time',
+        Validityperiod:'Validity period',
+        Singleuse:'Single use',
+        reuse:'reuse',
+        selectdate:'selection period',
+        coupontext:'The expired coupon system will be automatically cleared.',
+        Categories:'Categories',
+        allgoods:'all products',
+        Createnow:'Create now',
+        remark:'Remarks',
+     },
+     couponslist:{
+        title:'Coupon management',
+        select:'please select',
+        all:'all',
+        Used:'Used',
+        Unused:'Unused',
+        selectcouponsnum:'Please enter the coupon number',
+        search:'Inquire',
+        reset:'reset',
+        clearall:'Empty coupon',
+        couponsnum:'coupon number',
+        Bindingclassification:'Binding classification',
+        Denomination:'Denomination',
+        time:'Generation time',
+        Remarks:'Remarks',
+        Expiredate:'Expire date',
+        management:'management'
+     }
+}
